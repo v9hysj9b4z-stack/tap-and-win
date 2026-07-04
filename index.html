@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap & Win</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Logo -->
+    <img src="images/logo.png" class="logo" alt="Logo">
+
+    <h1>TAP & WIN</h1>
+
+    <p class="subtitle">
+        Spin the wheel for a chance to win amazing prizes!
+    </p>
+
+    <!-- Wheel -->
+    <div class="wheel-area">
+
+        <canvas id="wheel" width="320" height="320"></canvas>
+
+        <div class="pointer"></div>
+
+    </div>
+
+    <!-- Button -->
+    <button id="spinBtn">
+        SPIN NOW
+    </button>
+
+    <!-- Result -->
+    <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
